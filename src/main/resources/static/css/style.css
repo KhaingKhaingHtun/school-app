@@ -34,3 +34,36 @@ tfoot{
 td, th{
     padding: 0.5rem;
 }
+
+.form-group{
+    margin: 1rem auto;
+}
+
+.form-control > label{
+    display: block;
+}
+
+.form-control{
+    margin-bottom: 1rem;
+}
+
+input, textarea{
+    width: 100%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.btn-create{
+    width: 5rem;
+    height: 2.8rem;
+    background-color: purple;
+    color: white;
+}
+
+input{
+    height: 2rem;
+}
+
+
+.action{
+    text-align: right;
+}

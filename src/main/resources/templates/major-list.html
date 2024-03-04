@@ -15,6 +15,7 @@
                     <th>ID</th>
                     <th>Name</th>
                     <th>Description</th>
+                    <th>Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -22,6 +23,7 @@
                     <td th:text = "${major.id}"></td>
                     <td th:text = "${major.name}"></td>
                     <td th:text = "${major.description}"></td>
+                    <td><a th:href= "@{'/update/'+${major.id}}">Edit</a></td>
                 </tr>
             </tbody>
             <tfoot>
@@ -29,9 +31,11 @@
                     <th>ID</th>
                     <th>Name</th>
                     <th>Description</th>
+                    <th>Action</th>
                 </tr>
             </tfoot>
         </table>
+        <a class="btn-create" href="/create">Create</a>
     </div>
 </body>
 </html>
